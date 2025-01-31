@@ -10,6 +10,39 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: pt
+  features:
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.keys
+  - admonition
+  - pymdownx.details
+  - abbr
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.tasklist  # Lista de tarefas
+  - pymdownx.emoji  # Emojis
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: ⚓︎
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.tabbed:
+      alternate_style: true
 
 
 extra_css:
