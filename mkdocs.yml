@@ -10,3 +10,9 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: pt
+
+
+extra_css:
+  - assets/style.css
+extra_javascript:
+  - assets/style.js
