@@ -1,1 +1,12 @@
-site_name: My Docs
+site_name: Curso Python
+
+# Repository
+repo_name: gabrielbdornas/curso-python
+repo_url: https://github.com/gabrielbdornas/curso-python
+edit_uri: edit/main/docs/
+
+
+# Configuration
+theme:
+  name: material
+  language: pt
