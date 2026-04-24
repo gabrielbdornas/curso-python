@@ -1,0 +1,4 @@
+print('gabriel')
+print('trilha-dev')
+print('Olá Mundo!')
+print(2+2+2)
